@@ -602,6 +602,11 @@ body.no-scroll {
         grid-template-columns: 1fr;
     }
 
+    .custom-header {
+        font-size: 1.8rem;
+        line-height: 1.35;
+    }
+
     .grid-container-2col .custom-header,
     .grid-container-2col .custom-text {
         text-align: center;
@@ -645,6 +650,13 @@ body.no-scroll {
     .footer-sidebar {
         justify-content: center;
         flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 600px) {
+    .custom-header {
+        font-size: 1.5rem;
+        line-height: 1.3;
     }
 }
 

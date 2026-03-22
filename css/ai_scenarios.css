@@ -594,9 +594,21 @@ body.no-scroll {
         gap: 2rem;
     }
 
+    .custom-header {
+        font-size: 1.8rem;
+        line-height: 1.35;
+    }
+
     .footer-sidebar {
         justify-content: center;
         flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 600px) {
+    .custom-header {
+        font-size: 1.5rem;
+        line-height: 1.3;
     }
 }
 
