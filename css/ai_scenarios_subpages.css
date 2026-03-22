@@ -685,12 +685,21 @@ body.no-scroll {
     }
 
     
+    .custom-header {
+        font-size: 1.8rem;
+        line-height: 1.35;
+    }
+
+    .page-description {
+        font-size: 0.9rem;
+    }
+
     .breadcrumb {
         padding: 0.75rem 1rem;
         font-size: 0.9rem;
     }
 
-    
+
     .three-column-layout {
         display: flex;
         flex-direction: column;
@@ -738,6 +747,15 @@ body.no-scroll {
 
 @media (max-width: 600px) {
     html { font-size: 14px; }
+
+    .custom-header {
+        font-size: 1.5rem;
+        line-height: 1.3;
+    }
+
+    .page-description {
+        font-size: 0.85rem;
+    }
 }
 
 @media (min-width: 2200px) {
