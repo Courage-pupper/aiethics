@@ -1,16 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-
-    const menuToggle = document.querySelector('.menu-toggle');
-    const mobileNav = document.querySelector('.mobile-nav-menu');
-    if (menuToggle && mobileNav) {
-        menuToggle.addEventListener('click', () => {
-            mobileNav.classList.toggle('is-open');
-            document.body.classList.toggle('no-scroll');
-        });
-    }
-
-
     const instructionsPanel = document.querySelector('.instructions-panel');
     if (instructionsPanel) {
         const prevBtn = document.getElementById('prev-step-btn');

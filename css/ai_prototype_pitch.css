@@ -1320,6 +1320,7 @@ body.no-scroll {
         text-align: center;
         height: auto;
         background-size: contain;
+        padding: 2rem 1rem;
     }
 
     .footer-content {
@@ -1328,9 +1329,16 @@ body.no-scroll {
         gap: 2rem;
     }
 
+    .logo-grid {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
     .footer-sidebar {
         justify-content: center;
         flex-wrap: wrap;
+        gap: 2rem;
     }
     .navbar {
         background-image: none;
@@ -1349,7 +1357,7 @@ body.no-scroll {
         display: flex;
     }
 
-    
+
     .custom-header {
         font-size: 1.8rem;
         line-height: 1.35;
@@ -1376,7 +1384,7 @@ body.no-scroll {
         padding: 0 1rem;
     }
 
-    
+
     .activity-container {
         display: flex;
         flex-direction: column;
@@ -1389,7 +1397,7 @@ body.no-scroll {
         overflow: visible;
     }
 
-    
+
     .instructions-panel {
         padding: 1rem;
         border: 1.5px dotted var(--accent-color);
@@ -1397,7 +1405,7 @@ body.no-scroll {
         font-size: 0.95rem;
         line-height: 1.5;
         overflow: hidden;
-        height: 85vh;
+        height: 55vh;
         overflow-y: auto;
 
     }

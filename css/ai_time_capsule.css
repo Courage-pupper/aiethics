@@ -1293,6 +1293,7 @@ body.no-scroll {
         text-align: center;
         height: auto;
         background-size: contain;
+        padding: 2rem 1rem;
     }
 
     .footer-content {
@@ -1301,11 +1302,18 @@ body.no-scroll {
         gap: 2rem;
     }
 
+    .logo-grid {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
     .footer-sidebar {
         justify-content: center;
         flex-wrap: wrap;
+        gap: 2rem;
     }
-    
+
     .navbar {
         background-image: none;
         background-color: #78A564;
