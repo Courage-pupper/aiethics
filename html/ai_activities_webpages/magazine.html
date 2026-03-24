@@ -52,96 +52,17 @@
         </aside>
 
         <section class="main-content-area">
-            <h1 class="custom-header">Magazine Cut-outs</h1>
-            <div class="aspect-ratio-box">
-                <img src="../../images/activities/activity2_banner.svg" alt="green pic activity">
-            </div>
-            <div class="mini-image-spacer"></div>
 
-            <p>In this activity, you will create artwork, upload it to edit with AI, print it, and repeat this process various times. You will create a simple black and white image, and upload it to an AI to edit one or two things from it, and then print it and to layer magazine cutouts on it. Then take a picture, edit it again, and print this one as well. Showcase the four artworks to visualize the editing process. By reflecting on how your art changes when mixed with magazine cutouts and AI, you will engage with ethics principles. You can do this alone, with a partner, or in a small group.
-            </p>
+            <div class="page-header">
+                <img src="../../images/activities/activity_2.svg" alt="Magazine Cut-outs activity icon" class="page-header-icon">
+                <div class="page-header-text">
+                    <h1 class="custom-header">Magazine Cut-outs</h1>
+                </div>
+            </div>
+
+            <p class="page-description">In this activity, you will create artwork, upload it to edit with AI, print it, and repeat this process various times. You will create a simple black and white image, and upload it to an AI to edit one or two things from it, and then print it and to layer magazine cutouts on it. Then take a picture, edit it again, and print this one as well. Showcase the four artworks to visualize the editing process. By reflecting on how your art changes when mixed with magazine cutouts and AI, you will engage with ethics principles. You can do this alone, with a partner, or in a small group.</p>
+
             <div class="image-spacer"></div>
-
-            <h2>Activity Instructions</h2>
-            <div class="mini-image-spacer"></div>
-
-            <div class="activity-container">
-
-                <aside class="instructions-panel">
-                    <div class="instructions-content">
-
-                        <div class="step-content is-active" data-step="1">
-                            <h3>1. Create simple artwork: </h3>
-                            <p>Use the art materials to draw something you like, only in black and white. Keep it simple.
-                            </p>
-                        </div>
-
-                        <div class="step-content" data-step="2">
-                            <h3>2. Edit with AI: </h3>
-                            <p>Upload your artwork and edit one or two things with the help of AI. Print the output.</p>
-                        </div>
-
-                        <div class="step-content" data-step="3">
-                            <h3>3. Edit with magazines:</h3>
-                            <p>Use magazines to cut out pieces to layer on top of your drawing. Take your time to add details to reimagine your drawing.
-                            </p>
-                        </div>
-                        <div class="step-content" data-step="4">
-                            <h3>4. Edit with AI:</h3>
-                            <p>Upload your layered cutout and now edit it with AI. Play around with it and notice how the AI interprets your initial drawing and the magazine cutout layered one.
-                            </p>
-                        </div>
-                        <div class="step-content" data-step="5">
-                            <h3>5. Exhibit and share:</h3>
-                            <p>Display your four artworks side by side and connect them like a flowchart, explaining what changed with each iteration. Share your process with the group.</p>
-                        </div>
-                        <div class="step-content" data-step="6">
-                            <h3>6. Reflect:</h3>
-                            <p> Use the discussion prompts to guide the conversation about ethics.</p>
-                        </div>
-
-                    </div>
-
-                    <div class="step-counter">
-                        <div class="progress-bar-container">
-                            <div id="progressBarFill" class="progress-bar-fill"></div>
-                        </div>
-                        <div class="step-controls">
-                            <button id="prev-step-btn">&lt;</button>
-                            <span id="step-display">STEP 1 OF 6</span>
-                            <button id="next-step-btn">&gt;</button>
-                        </div>
-                    </div>
-                </aside>
-
-                <main class="chat-panel">
-                    <div class="chat-messages">
-                    </div>
-                    <div class="chat-input-bar">
-                        <input type="file" id="imageUpload" accept="image/*" style="display: none;">
-                        <button id="uploadBtn" class="upload-btn">+</button>
-
-                        <div
-                                id="chatEditor"
-                                class="chat-editor"
-                                contenteditable="true"
-                                role="textbox"
-                                aria-multiline="true"
-                                aria-label="Send a message"
-                                data-placeholder="Describe your edit..."
-                        ></div>
-
-                        <button class="send-btn" aria-label="Send message">&#9658;</button>
-                    </div>
-
-                </main>
-
-            </div>
-
-            <div id="imageHistory" class="image-history" style="display: none;">
-                <h3 class="image-history-title">Your Generated Images</h3>
-                <div id="imageHistoryGrid" class="image-history-grid"></div>
-            </div>
 
             <section class="post-activity-section">
 
@@ -155,13 +76,13 @@
                         <li>Cardstock</li>
                         <li>Pens and colored pencils</li>
                     </ul>
-
                 </div>
 
                 <div class="guiding-questions">
                     <h3>Guiding Questions for AI Ethics Literacy</h3>
+                    <p>Based on OECD AI principles.</p>
 
-                    <details class="accordion-item" open>
+                    <details class="accordion-item accordion-red" open>
                         <summary>Creativity and human capabilities</summary>
                         <div class="accordion-content">
                             <ul>
@@ -171,32 +92,29 @@
                         </div>
                     </details>
 
-                    <details class="accordion-item" open>
+                    <details class="accordion-item accordion-red" open>
                         <summary>Fairness and agency</summary>
                         <div class="accordion-content">
                             <ul>
-                                <li><strong>Agency:</strong> In which steps did you have the most control over the final image? Who is the author of each artwork?
-                                </li>
+                                <li><strong>Agency:</strong> In which steps did you have the most control over the final image? Who is the author of each artwork?</li>
                             </ul>
                         </div>
                     </details>
 
-                    <details class="accordion-item" open>
+                    <details class="accordion-item accordion-red" open>
                         <summary>Transparency and explainability</summary>
-                        <div class="accordion-content" >
+                        <div class="accordion-content">
                             <ul>
-                                <li><strong>Outcomes:</strong> Were the outputs of the AI surprising? If so, does that make the AI more creative?
-                                </li>
+                                <li><strong>Outcomes:</strong> Were the outputs of the AI surprising? If so, does that make the AI more creative?</li>
                             </ul>
                         </div>
                     </details>
 
-                    <details class="accordion-item" open>
+                    <details class="accordion-item accordion-red" open>
                         <summary>Robustness and safety</summary>
                         <div class="accordion-content">
                             <ul>
-                                <li><strong>Robustness:</strong> Did the AI produce a coherent image, or did it generate strange errors? Did the tool operate in the way you expected?
-                                </li>
+                                <li><strong>Robustness:</strong> Did the AI produce a coherent image, or did it generate strange errors? Did the tool operate in the way you expected?</li>
                                 <li><strong>Misuse:</strong> Could this tool be used in harmful ways?</li>
                             </ul>
                         </div>
@@ -204,7 +122,77 @@
                 </div>
 
             </section>
-            <h2>Explorer other activities</h2>
+
+            <h2>Activity Instructions</h2>
+            <div class="mini-image-spacer"></div>
+
+            <div class="instruction-cards-grid">
+                <div class="instruction-card">
+                    <span class="instruction-watermark">1</span>
+                    <h4 class="instruction-card-title">Create simple artwork</h4>
+                    <p class="instruction-card-text">Use the art materials to draw something you like, only in black and white. Keep it simple.</p>
+                </div>
+                <div class="instruction-card">
+                    <span class="instruction-watermark">2</span>
+                    <h4 class="instruction-card-title">Edit with AI</h4>
+                    <p class="instruction-card-text">Upload your artwork and edit one or two things with the help of AI. Print the output.</p>
+                </div>
+                <div class="instruction-card">
+                    <span class="instruction-watermark">3</span>
+                    <h4 class="instruction-card-title">Edit with magazines</h4>
+                    <p class="instruction-card-text">Use magazines to cut out pieces to layer on top of your drawing. Take your time to add details to reimagine your drawing.</p>
+                </div>
+                <div class="instruction-card">
+                    <span class="instruction-watermark">4</span>
+                    <h4 class="instruction-card-title">Edit with AI again</h4>
+                    <p class="instruction-card-text">Upload your layered cutout and edit it with AI. Play around with it and notice how the AI interprets the layered version.</p>
+                </div>
+                <div class="instruction-card">
+                    <span class="instruction-watermark">5</span>
+                    <h4 class="instruction-card-title">Exhibit and Share</h4>
+                    <p class="instruction-card-text">Display your four artworks side by side and connect them like a flowchart, explaining what changed with each iteration.</p>
+                </div>
+                <div class="instruction-card">
+                    <span class="instruction-watermark">6</span>
+                    <h4 class="instruction-card-title">Reflect</h4>
+                    <p class="instruction-card-text">Use the discussion prompts to guide the conversation about ethics.</p>
+                </div>
+            </div>
+
+            <div class="image-spacer"></div>
+
+            <h2>Let's Start!</h2>
+            <div class="mini-image-spacer"></div>
+
+            <div class="activity-container chat-only">
+                <main class="chat-panel">
+                    <div class="chat-messages">
+                    </div>
+                    <div class="chat-input-bar">
+                        <input type="file" id="imageUpload" accept="image/*" style="display: none;">
+                        <button id="uploadBtn" class="upload-btn">+</button>
+                        <div
+                                id="chatEditor"
+                                class="chat-editor"
+                                contenteditable="true"
+                                role="textbox"
+                                aria-multiline="true"
+                                aria-label="Send a message"
+                                data-placeholder="Describe your edit..."
+                        ></div>
+                        <button class="send-btn" aria-label="Send message">&#9658;</button>
+                    </div>
+                </main>
+            </div>
+
+            <div id="imageHistory" class="image-history" style="display: none;">
+                <h3 class="image-history-title">Your Generated Images</h3>
+                <div id="imageHistoryGrid" class="image-history-grid"></div>
+            </div>
+
+            <div class="image-spacer"></div>
+
+            <h2>Explore Other Activities</h2>
 
             <div class="slider-wrapper">
                 <div class="slider-container">
