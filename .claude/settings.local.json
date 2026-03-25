@@ -5,7 +5,8 @@
       "Bash(powershell -Command:*)",
       "Bash(node:*)",
       "Bash(ls:*)",
-      "Bash(git:*)"
+      "Bash(git:*)",
+      "Bash(grep -E \"\\\\.\\(jpg|jpeg|png|gif|webp\\)$\")"
     ]
   }
 }

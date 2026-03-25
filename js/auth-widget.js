@@ -32,7 +32,7 @@
   function injectPill(safeUser) {
     var css = document.createElement("style");
     css.textContent =
-      "#aw-pill{position:fixed;bottom:16px;right:16px;z-index:9998;" +
+      "#aw-pill{position:fixed;bottom:4.5rem;right:16px;z-index:9998;" +
       "background:rgba(30,30,30,.85);backdrop-filter:blur(8px);" +
       "color:#f0f0f0;font:500 12px/1 Inter,-apple-system,BlinkMacSystemFont,sans-serif;" +
       "padding:8px 14px;border-radius:20px;display:flex;align-items:center;gap:8px;" +
