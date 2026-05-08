@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "id": "6f75fb58-e295-4bf2-bfe3-5f0c5bcc86d8",
+    "username": "aiethics",
+    "passwordHash": "$2b$10$ECgcj/XfmSznQMuZDCsxYOxgGTqgBKDRZbDrJcyY8cp3ubpvQTQG2",
+    "createdAt": "2026-05-08T08:37:51.205Z",
+    "expiresAt": "2027-05-08T08:37:51.205Z",
+    "createdBy": "admin",
+    "active": true
+  },
+  {
+    "id": "ca4f67e9-a05e-474b-93fa-e3074bf73dd8",
+    "username": "santiago",
+    "passwordHash": "$2b$10$TgJq3B2Z8rMXgTP1E.HILefxk6rmzWB8WLxQFZNNTU310oZk9Hn/q",
+    "createdAt": "2026-05-08T08:38:04.360Z",
+    "expiresAt": "2026-05-15T08:38:04.360Z",
+    "createdBy": "admin",
+    "active": true
+  }
+]
