@@ -16,5 +16,14 @@
     "expiresAt": "2026-05-15T08:38:04.360Z",
     "createdBy": "admin",
     "active": true
+  },
+  {
+    "id": "d9277dae-cdd0-49b3-a149-6213af136fa0",
+    "username": "santiago2",
+    "passwordHash": "$2b$10$eIbcoheK3mCAnyoPmpzDV.wXL3QHxxx3oiNHqCcGKkpiB0jEJV.5e",
+    "createdAt": "2026-05-08T08:39:46.602Z",
+    "expiresAt": "2026-05-15T08:39:46.602Z",
+    "createdBy": "admin",
+    "active": true
   }
 ]
